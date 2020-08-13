@@ -41,7 +41,4 @@ merged[["subject"]] <- as.factor(merged[, subject])
 result <- melt(data = merged, id = c("subject", "activity"))
 result <- dcast(data = result, subject + activity ~ variable, mean)
 
-fwrite(x = result, file = "tidydata.txt", quote = FALSE)
-
-
-
+write.table(result, "tidydata.txt", quote = FALSE, row.names = FALSE)
