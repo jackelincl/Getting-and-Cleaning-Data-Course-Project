@@ -16,3 +16,7 @@ A R script named run_analysis.R that does the following:
 ### Tidy data set
 
 A tidy data set named tidydata.txt which is the end result after running the R script run_analysis.R over the raw data.
+
+### CodeBook
+
+A code book that describes the variables, the data, and provides a link to the original repository for more information
